@@ -1,7 +1,7 @@
 # ocp
 Easy example of open close principle. One of the five SOLID principles of object-oriented design.
 
-The GeneradorPrimos inteface has the common functionaliy of the classes, that is, generates a list of prime numbers,
+The GeneradorPrimos inteface has the common functionaliy of the classes, that is, checks if a number is prime,
 and GeneradorPrimosOrdenAsc and  GeneradorPrimosOrdenDesc has two differents implementations with different way of 
 ordering items.
 
