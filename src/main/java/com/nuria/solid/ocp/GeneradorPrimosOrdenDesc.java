@@ -1,8 +1,11 @@
 package com.nuria.solid.ocp;
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class GeneradorPrimosOrdenDesc implements GeneradorPrimos {
 
     public List<Integer> primos (int limit) {
